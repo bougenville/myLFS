@@ -271,6 +271,12 @@ Before continue, make sure you are in the chroot environment by following the in
 
 - 11.1. The End
 - 11.3. Rebooting the System
+    - install OpenSSH is strongly recommanded
+    - or make sure your network config is functional and wget or curl is installed
+
+For me, after enter info the brand new LFS environment, the next thing is to compile BLFS packages, but I can't ssh into the new environment any more because I didn't install OpenSSH. So I rolled back to the previous snapshot, rsync the packages, make OpenSSH installed and configured, then reboot. There's another way to make sure you can use the network inside your LFS: give the VM two or more network cards at the very beginning. Normally, three cards for three modes: NAT, HostOnly, Bridge. This topic will be covered later if I got time to review the whole building procedure.
+
+Now, let's embark on the BLFS adventrue.
 
 ## Step 3. BLFS
 
