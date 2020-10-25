@@ -280,4 +280,58 @@ Now, let's embark on the BLFS adventrue.
 
 ## Step 3. BLFS
 
+### II. Post LFS Configuration and Extra Software
+
+- Configuring for Adding Users
+- About System Users and Groups
+- The Bash Shell Startup Files
+- The /etc/vimrc and ~/.vimrc Files
+- Customizing your Logon with /etc/issue
+
+### Common and useful tools
+
+- tmux
+- openssh
+- rsync
+- git
+
+### VI. X + Window and Display Managers
+
+### Setting up the Xorg Build Environment
+
+- util-macros-1.19.2
+- xorgproto-2020.1
+- libXau-1.0.9
+- libXdmcp-1.1.3
+- xcb-proto-1.14
+- libxcb-1.14
+- libpng-1.6.37
+- Which-2.21 and Alternatives
+- FreeType-2.10.2
+- HarfBuzz-2.7.1
+- FreeType-2.10.2 Pass 2
+- Fontconfig-2.13.1
+- Xorg Libraries: in China, use http://mirrors.ustc.edu.cn/Xorg/pub/individual/lib to speed up the downloading
+- xcb-util-0.4.0
+- xcb-util-image-0.4.0
+- xcb-util-keysyms-0.4.0
+- xcb-util-renderutil-0.3.9
+- xcb-util-wm-0.4.1
+- xcb-util-cursor-0.1.3
+- libdrm-2.4.102
+- MarkupSafe-1.1.1
+- Mako-1.1.3
+- libuv-1.38.1
+- cURL-7.71.1
+- LZO-2.10
+- Nettle-3.6
+- libarchive-3.4.3
+- libxml2-2.9.10
+- nghttp2-1.41.0
+- CMake-3.18.1
+- LLVM-10.0.1
+    - fatal error solved! Give the VM more memory!
+
 To be continued...
+
+- Mesa-20.1.5
